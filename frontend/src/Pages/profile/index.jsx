@@ -56,7 +56,7 @@ const ProfilePage = () => {
             transition={{ duration: 0.3 }}
           >
             <img
-              src={userData.profile ? `https://task-management-backend-yfrd.onrender.com/images/upload/${userData.profile}` : '/default-avatar.png'}
+              src={userData.profile ? `https://task-management-new-backend.onrender.com/images/upload/${userData.profile}` : '/default-avatar.png'}
               alt="Profile"
               className="w-full h-full rounded-full object-cover shadow-md border-[3px] border-blue-600"
             />
