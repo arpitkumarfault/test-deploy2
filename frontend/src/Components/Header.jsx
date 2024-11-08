@@ -109,7 +109,7 @@ const Header = () => {
                           className="h-full object-cover w-full rounded-full"
                           src={
                             userData.profile
-                              ? `http://localhost:3000/images/upload/${userData.profile}`
+                              ? `https://task-management-backend-yfrd.onrender.com/images/upload/${userData.profile}`
                               : '/default-avatar.png'
                           }
                           alt="User menu"
