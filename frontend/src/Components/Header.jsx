@@ -3,7 +3,6 @@ import { Disclosure, Menu } from '@headlessui/react';
 import { XMarkIcon, Bars3Icon, ClipboardDocumentIcon, SunIcon, MoonIcon } from '@heroicons/react/24/outline';
 import axios from 'axios';
 import { useNavigate, NavLink } from 'react-router-dom';
-
 const navigation = [
   { name: 'Home', href: '/home', current: false },
   { name: 'All tasks', href: 'all', current: false },
