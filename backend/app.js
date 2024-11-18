@@ -22,7 +22,11 @@ app.use(cors())
 app.use(cookieParser())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+app.get('/profile',(req,res)=>{
+res.send("the profile page 👍👍❤️❤️😊")
 
+}
+       )
 // API routes
 app.use('/api/v4/user', router)
 
